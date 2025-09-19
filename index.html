@@ -13,32 +13,70 @@
     <h1>Luka Pancic</h1>
     <nav>
       <a href="#about">About</a>
+      <a href="#projects">About</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <section class="hero">
+  <section class="hiddenhero" >
     <h2>Hello, I’m <span class="highlight">Luka</span></h2>
     <p>I'm a simple guy making stuff and publishing it on GitHub.</p>
     <a href="https://github.com/yorthcode" class="btn">Visit my GitHub</a>
   </section>
 
-  <section id="about">
+  <section id="about" class="hidden">
     <h2>About Me</h2>
     <p>
-      I'm primarily a C++ and Java developer, but I also have some web development 
-      and reverse engineering experience.
-      <br>
-      I like living in the gym and playing Counter-Strike 2 in my free time. 
+      I'm primarily a C++ and Java developer, soon to be graduated Software Engineer, 
+      and I also have some web development and reverse engineering experience.
       <br>
       <br>
       You can always contact me if you are interested in working with me!
     </p>
   </section>
 
-  <section id="projects"></section>
+  <section id="projects" class="hidden">
+    <h2>Some of my projects:</h2>
+    <br>
+    <section class = "card">
+      <h2>
+        SFML Snake
+      </h2>
+      <p>
+        Small project I made to learn basics of SFML library, just a basic Snake game that I hope to expand some day.
+      </p>
+      <br>
+      <a class = "btn" href = "https://github.com/yorthcode/SFML-Snake">GitHub Page</a>
+    </section>
 
-  <section id="contact">
+    <section class = "card">
+      <h2>
+        RetroWar Anti-Cheat
+      </h2>
+      <p>
+        A basic, yet functional Anti-Cheat system for a private game server, sadly it was never finished due to the game being canceled.
+        <br>
+        This project is what pushed me to make an Anti-Cheat system as my bacherlor's degree final project.
+      </p>
+      <br>
+      Not available publicly on GitHub.
+    </section>
+
+    <section class = "card">
+      <h2>
+        Pseudo CPU Emulator
+      </h2>
+      <p>
+        A small pseudo CPU Emulator project with an imaginary architecture, made as part of an Computer Architecture course. 
+        <br>
+        <br>
+        <a class = "btn" href = "https://github.com/yorthcode/CPU-Emulator">GitHub Page</a>
+      </p>
+    </section>
+
+  </section>
+
+  <section id="contact" class="hidden">
     <h2>Contact</h2>
     <p>
       E-Mail me at <a href="mailto:lukaiorthr@gmail.com">lukaiorthr@gmail.com</a>
@@ -46,5 +84,6 @@
   </section>
 
   <script src="stars.js"></script>
+  <script src="load.js"></script>
 </body>
 </html>

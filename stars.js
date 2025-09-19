@@ -47,6 +47,5 @@ function drawStars() {
   requestAnimationFrame(drawStars);
 }
 
-
 initStars();
 drawStars();
